@@ -1,0 +1,45 @@
+# GitHub Pages user-site settings.
+title: "Tongxin Zhou"
+description: "Tongxin Zhou is a master's student at Nanjing University working on RISC-V processor design, memory-centric computing, 3D integration, and efficient edge inference."
+url: "https://tongxinzhou.github.io"
+baseurl: ""
+repository: "tongxinzhou/tongxinzhou.github.io"
+timezone: Asia/Shanghai
+encoding: utf-8
+
+author:
+  name: "Tongxin Zhou"
+  email: "tongxinzhou@smail.nju.edu.cn"
+  github: "SyntonZhou"
+  orcid: "https://orcid.org/0009-0008-2045-1796"
+
+include:
+  - _pages
+
+exclude:
+  - .bundle
+  - .devcontainer
+  - .github
+  - .sass-cache
+  - assets/js
+  - assets/css/main.scss
+  - CONTRIBUTING.md
+  - Dockerfile
+  - docker-compose.yaml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - markdown_generator
+  - node_modules
+  - package.json
+  - README.md
+  - scripts
+  - talkmap
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - talkmap.py
+  - vendor
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
