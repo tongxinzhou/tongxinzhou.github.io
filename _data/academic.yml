@@ -170,36 +170,41 @@ projects:
       en: "Lead student work on high-speed acquisition and real-time processing for an industrial optical coherence tomography system."
       zh: "负责面向工业光学相干断层成像系统的高速数据采集与实时处理研究。"
   - title:
-      en: "Cross-Die Cache Architecture for RISC-V and 2D SRAM"
-      zh: "RISC-V与2D SRAM跨Die缓存架构研究"
+      en: "High-Bandwidth Near-Memory Chip with 2D DRAM"
+      zh: "二维 DRAM 高带宽近存芯片"
+    role:
+      en: "Project with a manuscript submitted to Nature · Joint research with Xinran Wang’s group"
+      zh: "Nature 在投项目 · 与王欣然课题组联合研究"
+    role_emphasis: {en: "submitted to Nature", zh: "Nature 在投"}
+    period: {en: "Sep 2025–Nov 2026", zh: "2025 年 9 月至 2026 年 11 月"}
+    summary:
+      en: "Contributed to the silicon-side chip tape-out and was the third author of the related ISCAS submission."
+      zh: "参与硅侧芯片流片，为相关 ISCAS 投稿论文的第三作者。"
+    summary_emphasis: {en: "tape-out", zh: "流片"}
+  - title:
+      en: "Integrated 2D DRAM–RISC-V Chip"
+      zh: "二维 DRAM–RISC-V 集成芯片"
+    role:
+      en: "Silicon-side lead · Joint research with Xinran Wang’s group"
+      zh: "硅侧牵头 · 与王欣然课题组联合研究"
+    role_emphasis: {en: "Silicon-side lead", zh: "硅侧牵头"}
+    period: {en: "Oct 2026–present", zh: "2026 年 10 月至今"}
+    summary:
+      en: "Lead CPU–cache co-design and control and scheduling design, and coordinate work toward the silicon-side tape-out."
+      zh: "主导 CPU–缓存协同与控制调度设计，推进硅侧流片。"
+    summary_emphasis: {en: "tape-out", zh: "流片"}
+  - title:
+      en: "3D-Integrated Microdisplay for AI Glasses"
+      zh: "AI 眼镜三维集成微显示"
     role:
       en: "Core contributor · Joint research with Xinran Wang’s group"
       zh: "核心贡献者 · 与王欣然课题组联合研究"
-    period: {en: "Ongoing", zh: "在研"}
-    summary:
-      en: "Study cache organization and memory access across dies in RISC-V systems that integrate 2D SRAM."
-      zh: "研究集成二维材料 SRAM 的 RISC-V 系统中跨裸片缓存组织与访存。"
-  - title:
-      en: "3D-Stacked Architecture Based on 2T0C Devices"
-      zh: "基于2T0C器件的三维堆叠架构研究"
-    role:
-      en: "Core contributor · Joint research with Xinran Wang’s group"
-      zh: "核心贡献者 · 与王欣然课题组联合研究"
-    period: {en: "Ongoing", zh: "在研"}
-    summary:
-      en: "Investigate how 2T0C memory devices can be integrated into a 3D stack and organized alongside compute."
-      zh: "研究 2T0C 存储器件在三维堆叠中的集成方式及其与计算单元的组织。"
-  - title:
-      en: "Near-Eye Computing System for Smart Glasses via 3D Heterogeneous Integration of 2D Materials and CMOS"
-      zh: "基于二维材料–CMOS 三维异质集成的智能眼镜近显计算系统"
-    role:
-      en: "Research contributor · Joint research with Xinran Wang’s group"
-      zh: "参与联合研究 · 与王欣然课题组合作"
+    role_emphasis: {en: "Core contributor", zh: "核心贡献者"}
     partner: {en: "Suzhou Zhubite Intelligent Technology Co., Ltd.", zh: "苏州朱庇特智能科技有限公司"}
-    period: {en: "Ongoing", zh: "在研"}
+    period: {en: "Sep 2026–present", zh: "2026 年 9 月至今"}
     summary:
-      en: "Explore low-power always-on sensing and real-time hazard alerts in smart glasses."
-      zh: "面向智能眼镜探索低功耗常开感知和实时风险提示。"
+      en: "Help evaluate low-power architectures and explore moving computation and control closer to the display."
+      zh: "参与低功耗架构论证，探索显示端计算与控制下沉。"
   - title:
       en: "Many-Core Networks-on-Chip for AI"
       zh: "面向AI的众核片上网络（NoC）"
@@ -283,6 +288,11 @@ undergraduate:
     period: {en: "2023", zh: "2023 年"}
 
 honors:
+  - title:
+      en: "Dongliang Outstanding Graduate Scholarship (Science and Technology Innovation Award)"
+      zh: "南京大学 2026 年度研究生栋梁优秀奖学金（科技创新奖）"
+    detail: {en: "Nanjing University", zh: "南京大学"}
+    period: {en: "Nov 12, 2026", zh: "2026 年 11 月 12 日"}
   - title: {en: "First-Class Graduate Academic Scholarship", zh: "研究生学业奖学金一等奖"}
     detail: {en: "Nanjing University", zh: "南京大学"}
     period: {en: "2025–2026 and 2026–2027", zh: "2025–2026、2026–2027 学年"}

@@ -6,8 +6,8 @@
         <h3>{{ project.title[project_lang] | escape }}</h3>
         <p class="period">{{ project.period[project_lang] | escape }}</p>
       </div>
-      <p class="project-role">{{ project.role[project_lang] | escape }}{% if project.partner %} · <strong class="project-partner">{{ project.partner[project_lang] | escape }}</strong>{% endif %}</p>
-      <p>{{ project.summary[project_lang] | escape }}</p>
+      <p class="project-role">{% include academic-emphasis.html text=project.role[project_lang] emphasis=project.role_emphasis[project_lang] %}{% if project.partner %} · <strong class="project-partner">{{ project.partner[project_lang] | escape }}</strong>{% endif %}</p>
+      <p>{% include academic-emphasis.html text=project.summary[project_lang] emphasis=project.summary_emphasis[project_lang] %}</p>
       {% if project.link %}
         <a class="inline-link" href="{{ project.link.url | escape }}">{{ project.link.label[project_lang] | escape }} <span aria-hidden="true">↗</span></a>
       {% endif %}

@@ -67,4 +67,12 @@ layout: academic
     </header>
     {% include academic-records.html lang=lang records=academic.education %}
   </section>
+
+  <section id="honors" class="section" aria-labelledby="honors-title">
+    <header class="section-heading">
+      <span class="section-index" aria-hidden="true">05</span>
+      <h2 id="honors-title">{% if lang == "zh" %}荣誉与奖励{% else %}Honors &amp; Awards{% endif %}</h2>
+    </header>
+    {% include academic-records.html lang=lang records=academic.honors %}
+  </section>
 </div>

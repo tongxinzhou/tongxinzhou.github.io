@@ -1,0 +1,8 @@
+{%- assign emphasized_text = include.emphasis | default: "" | escape -%}
+{%- assign escaped_text = include.text | escape -%}
+{%- if emphasized_text != "" -%}
+  {%- capture strong_text -%}<strong>{{ emphasized_text }}</strong>{%- endcapture -%}
+  {{- escaped_text | replace_first: emphasized_text, strong_text -}}
+{%- else -%}
+  {{- escaped_text -}}
+{%- endif -%}
