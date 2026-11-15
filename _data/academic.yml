@@ -190,7 +190,7 @@ projects:
     role_emphasis: {en: "Silicon-side lead", zh: "硅侧牵头"}
     period: {en: "Oct 2026–present", zh: "2026 年 10 月至今"}
     summary:
-      en: "Lead CPU–cache co-design and control and scheduling design, and coordinate work toward the silicon-side tape-out."
+      en: "Lead CPU–cache co-design, including control and scheduling, and coordinate work toward the silicon-side tape-out."
       zh: "主导 CPU–缓存协同与控制调度设计，推进硅侧流片。"
     summary_emphasis: {en: "tape-out", zh: "流片"}
   - title:
